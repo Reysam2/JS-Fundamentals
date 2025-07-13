@@ -1,5 +1,7 @@
-let languages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+let languages = ["C is fun", "Python is cool", "JavaScript is amazing"];
+ 
+languages.forEach(function (key) {
+  console.log(key);
+});
 
-for(let i = 0; i < languages.length; i++) {
-  console.log(languages[i]);
-}
+ 
