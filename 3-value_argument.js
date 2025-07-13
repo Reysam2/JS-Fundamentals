@@ -1,7 +1,7 @@
 let args = process.argv.slice(2);
-let count = args.reduce((a) => a + 1, 0);
+let count = args.reduce((con) => con + 1, 0);
 if(count > 0) {
-  console.log(`${args}`);
+  console.log(`${args.shift()}`);
 }
 else {
   console.log('No argument')
